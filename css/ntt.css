@@ -1,0 +1,41 @@
+/* Gaya tambahan untuk situs Wisata NTT */
+.ntt-desc { font-size: 14px; color: #666; margin-bottom: 14px; }
+.project-wrap .text ul li .fa { color: #f15d30; margin-right: 4px; }
+a.services { text-decoration: none; }
+.services .icon span.fa { font-family: FontAwesome; font-size: 34px; color: #fff; }
+.project-wrap .text ul li .fa { font-family: FontAwesome; font-size: 15px; margin-right: 6px; }
+a.services .heading, a.services p { color: #fff; }
+
+/* Lini masa */
+.ntt-timeline { position: relative; padding-left: 36px; }
+.ntt-timeline:before { content: ""; position: absolute; left: 11px; top: 6px; bottom: 6px; width: 2px; background: #e3e3e3; }
+.ntt-tl-item { position: relative; margin-bottom: 28px; }
+.ntt-tl-dot { position: absolute; left: -33px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #f15d30; border: 3px solid #fff; box-shadow: 0 0 0 2px #f15d30; }
+.ntt-tl-card { background: #fff; border-radius: 6px; padding: 22px 26px; box-shadow: 0 8px 24px rgba(0, 0, 0, .07); }
+.ntt-tl-card h3 { font-size: 20px; margin: 4px 0 10px; }
+.ntt-tl-card p { margin: 0; color: #555; }
+.ntt-tl-era { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: #f15d30; }
+
+/* Kartu budaya & kuliner */
+.ntt-card { width: 100%; background: #fff; border-radius: 6px; overflow: hidden; margin-bottom: 30px; box-shadow: 0 8px 24px rgba(0, 0, 0, .08); display: flex; flex-direction: column; }
+.ntt-card-top { height: 110px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 40px; }
+.ntt-card.c1 .ntt-card-top { background: linear-gradient(135deg, #f15d30, #ff9b5e); }
+.ntt-card.c2 .ntt-card-top { background: linear-gradient(135deg, #1f8a8a, #45c1b5); }
+.ntt-card.c3 .ntt-card-top { background: linear-gradient(135deg, #3b5ba9, #6f8de0); }
+.ntt-card.c4 .ntt-card-top { background: linear-gradient(135deg, #b8860b, #ffc107); }
+.ntt-card-body { padding: 22px 22px 26px; }
+.ntt-card-body h3 { font-size: 20px; margin: 6px 0 10px; }
+.ntt-card-body p { font-size: 14px; color: #666; margin: 0; }
+.ntt-tag { font-size: 12px; font-weight: 600; letter-spacing: .5px; color: #f15d30; text-transform: uppercase; }
+
+/* Tips */
+.ntt-tip { background: #f8f9fa; border-radius: 6px; padding: 28px 26px; height: 100%; margin-bottom: 20px; }
+.ntt-tip .fa { font-size: 30px; color: #f15d30; margin-bottom: 14px; display: block; }
+.ntt-tip h3 { font-size: 19px; margin-bottom: 10px; }
+.ntt-tip p { color: #666; margin: 0; font-size: 14px; }
+
+.heading-section p { color: #666; }
+@media (max-width: 767px) { .ntt-timeline { padding-left: 30px; } .ntt-tl-card { padding: 18px; } }
+
+/* Gambar pada kartu budaya: tambahkan class ntt-has-img + background-image pada .ntt-card-top */
+.ntt-card-top.ntt-has-img { height: 190px; background-size: cover !important; background-position: center; background-repeat: no-repeat; }
